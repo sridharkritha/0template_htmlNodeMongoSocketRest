@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<title>Mongodb Play Ground</title>
+</head>
+
+<body>
+<!-- 
+	Name: <input type="text"   id="inputName" class="numPadSz"><br>
+	Age:  <input type="number" id="inputAge"  class="numPadSz"><br>
+	
+	<button type="button" onclick="return myFunction();">Try it</button>
+
+	<br> <br>
+
+	<div id="displayElement"></div> 
+-->
+
+
+	<input type="button" value="run" onclick="myFunction()" title="ctrl + enter">
+
+	<div class="gridColumnLayout gridColumnLayout_3">
+		<div id="dbColumn">Database
+			<textarea id="story" name="story" rows="5" cols="33">
+				It was a dark and stormy night...
+			</textarea>
+		</div>
+		<div id="queryColumn">Query
+			<textarea id="story" name="story" rows="5" cols="33">
+				It was a dark and stormy night...
+			</textarea>
+		</div>
+		<div id="resultColumn">Result
+			<textarea id="story" name="story" rows="5" cols="33">
+				It was a dark and stormy night...
+			</textarea>
+		</div>
+	</div>
+
+	<script src="js/client.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+</body>
+
+</html>
