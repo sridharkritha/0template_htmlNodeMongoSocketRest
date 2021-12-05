@@ -1,2 +1,0 @@
-# ignore everything inside node_modules folder from git commit
-node_modules
